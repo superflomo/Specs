@@ -26,4 +26,3 @@ Pod::Spec.new do |s|
   s.resource = 'Resources/HockeySDKResources.bundle'
   s.prepare_command = 'xcodebuild -project Support/HockeySDK.xcodeproj -target HockeySDKResources CONFIGURATION_BUILD_DIR=../Resources 2>&1 > /dev/null'
 end
-
